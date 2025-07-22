@@ -16,12 +16,4 @@ A simple yet powerful **QR Code Generator** built using **Node.js**. This applic
 
 ## 📁 Project Structure
 
-qr-code-generator/
-├── index.js # Main application file (QR generation logic)
-├── solution.js # Optional file for alternate logic/testing
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Locked versions of installed dependencies
-├── URL.txt # Stores the entered URL (optional usage)
-├── qr_img/ # Directory where generated QR code images are saved
-│ └── <your_qr>.png # Example output image
-└── node_modules/ # Installed Node.js dependencies
+<pre lang="md"> ```bash qr-code-generator/ ├── index.js # Main application file (QR generation logic) ├── solution.js # Optional file for alternate logic/testing ├── package.json # Project metadata and dependencies ├── package-lock.json # Locked versions of installed dependencies ├── URL.txt # Stores the entered URL (optional usage) ├── qr_img/ # Directory where generated QR code images are saved │ └── <your_qr>.png # Example output image └── node_modules/ # Installed Node.js dependencies ``` </pre>
