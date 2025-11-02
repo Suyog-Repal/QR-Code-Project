@@ -1,12 +1,16 @@
 {
-  "name": "qr_image_projet",
+  "name": "qr_image_project",
   "version": "1.0.0",
-  "description": "i am learning the qr image generation in this project and applying the concept of nodejs npm ",
+  "description": "Learning QR image generation in Node.js using inquirer and qr-image",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Suyog Repal",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.10",
+    "qr-image": "^3.2.0"
+  }
 }
